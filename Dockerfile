@@ -23,3 +23,4 @@ EXPOSE 5000
 
 WORKDIR /home/dev/web_server_flask
 ENTRYPOINT ["python3","hello.py","runserver"]
+CMD ["-h=0.0.0.0"]
